@@ -1,0 +1,185 @@
+body {
+  background: linear-gradient(to bottom, #09090a, #070731, #faf7f7);
+}
+
+
+h1{
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+nav{
+    height: 60px;
+    background-color:blanchedalmond;
+    display: grid;
+    place-items: center;
+}
+nav ul{
+    list-style-type: none;
+}
+nav li{
+    display: inline-block;
+}
+nav ul a{
+    display: inline inline-block;
+    text-decoration: none;
+    padding: 20px;
+}
+nav ul a:hover{
+    background-color: rgb(16, 16, 18);
+    color: white;
+
+}
+.items{
+    padding-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    padding: 30 px 30px;
+    grid-column-gap:20px ;
+    grid-row-gap: 20px;
+}
+.item img{
+    width: auto;
+    height: 200px;
+    object-fit: cover;
+    cursor: pointer;
+    transition: 0.2s ease;
+}
+.item h4{
+    padding: 5px;
+    text-align: center;
+}
+.item button{
+    background-color: red;
+    color: bisque;
+    border-radius: 7px;
+    display: block;
+    margin: 0 auto;
+}
+.item button:hover{
+    background-color: blue;
+}
+.footer{
+    background-color:rgb(162, 162, 28);
+    position: absolute;
+    text-align: right;
+    top: 1550px;
+    width: 1350px;
+    height: 250px;
+    display: flex;
+    color: white;
+  }
+  .container{
+    height: 50px;
+    width: 50px;
+    align-items: center;
+    background-color: aliceblue;
+    right: 50%;
+  }
+  
+  .social a:nth-child(1){
+    position: absolute;
+  right: 0px;
+    display: inline-flex;
+    height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(27, 27, 28);
+  margin: 10px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color:white;
+  }
+  .social a:nth-child(2){
+    position: absolute;
+  right: 100px;
+    display: inline-flex;
+    height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 27);
+  margin: 10px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color:white;
+  
+  }
+  .social a:nth-child(3){
+    position: absolute;
+  right: 200px;
+    display: inline-flex;
+    height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 27);
+  margin: 10px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color:white;
+  }
+  .social a:nth-child(4){
+    position: absolute;
+    padding: 5px;
+  right: 300px;
+    display: inline-flex;
+    height: 100px;
+  width: 100px;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(26, 26, 27);
+  margin: 10px;
+  box-shadow: 0 10px rgb(72, 7, 119);
+  border-radius: 50%;
+  color:white;
+  }
+
+  /*Adjustment of all the pictures separtely if they were not in the right alignment*/
+  #eggs-id {
+    position: relative;
+    left:50px;
+  }
+  #wheat-id {
+    position:relative;
+    left:120px;
+  }
+  #cereal-id {
+    position:relative;
+    left:45px;
+  }
+  #milk-id {
+    position:relative;
+    left:45px;
+  }
+  #bread-id {
+    position:relative;
+    left:45px;
+  }
+  #softdrinks-id {
+    position:relative;
+    left:45px;
+  }
+  #lentils-id {
+    position:relative;
+    left:75px;
+  }
+  #biscuits-id {
+    position:relative;
+    left:45px;
+  }
+  #almonds-id {
+    position:relative;
+    left:55px;
+  }
+  #snacks-id {
+    position:relative;
+    left:30px;
+  }

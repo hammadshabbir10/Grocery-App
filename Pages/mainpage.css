@@ -1,0 +1,67 @@
+
+body {
+  /*To set the colour of the background for the homepage*/
+  background: linear-gradient(to bottom, #09090a, #070731, #faf7f7);
+}
+
+/*Setting the width of navigation bar*/
+.navbar{
+  width:1100px;
+  margin: auto;
+}
+
+/*Setting the position of navigation bar at the center and its' colour*/
+ul{
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  background-color: purple;
+  text-align: center;
+  align-items: center;
+}
+/*For the alignment of blocks and setting the colours*/
+li{
+  display: inline-block;
+  background-color: purple;
+}
+/*Setting the colour for options in navigation bar. Displaying it in block shape.*/
+a{
+  color: skyblue;
+  width: 100px;
+  height:40px;
+  text-decoration:none;
+  display: block;
+  text-align: center;
+  padding-top: 25px;
+  padding-bottom: 13px;
+  align-items: center;
+}
+/*Colour changes when mouse comes on the options of navigation bar*/
+a:hover{
+  background-color: rgba(189, 189, 209, 0.662);
+
+}
+/*Setting the picture on the mainpage.*/
+#picture-side {
+  position:relative;
+  left:750px;
+
+}
+/*Setting the image and text w.r.t eachother*/
+.image-and-text {
+  display:flex;
+  justify-content: center;
+  align-items: center;
+}
+/*Setting the picture on the mainpage.*/
+.image {
+  position:relative;
+  right:10px;
+}
+/*Setting the text on the mainpage. Its' colour and position.*/
+.text {
+  font-size:30px;
+  color:skyblue;
+  position:relative;;
+  right:450px;
+}
